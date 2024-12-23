@@ -12,7 +12,7 @@ export default function Header() {
   
     return (
       <header className="fixed top-0 left-0 right-0 w-auto flex items-center justify-between px-6 py-3 bg-zinc-900 rounded-full mx-4 mt-4 shadow-lg z-50 box-border">
-        <FontAwesomeIcon icon={faCodepen} className="w-8 h-8 text-purple-950" />
+        <FontAwesomeIcon icon={faCodepen} className="w-8 h-8 text-purple-950 animate-pulse" />
         <nav>
           <ul className="flex space-x-6">
             {navLinks.map((link) => (
